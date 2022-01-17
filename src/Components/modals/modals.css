@@ -1,0 +1,110 @@
+.overlay {
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.filler {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #494F55;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.modal {
+    min-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-header {
+    margin-bottom: 20px;
+}
+
+.modal-header > h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+form, .modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+input, select {
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #494F55;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-bottom: 1px solid #506AD4;
+}
+
+.expense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 0.5px solid #494F55;
+}
+
+.expense-details {
+    padding-right: 20px;
+}
+
+.expense-details > h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.expense > button {
+    background-color: transparent;
+    border: 1px solid #CC3300;
+    color: #CC3300;
+    outline: none;
+    padding: 2px 5px;
+    font-size: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.modal-actions > button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-actions > button:first-child {
+    background-color: #CC3300;
+    color: white;
+}
+
+.modal-actions > button:last-child {
+    background-color: #506AD4;
+    color: white;
+}
