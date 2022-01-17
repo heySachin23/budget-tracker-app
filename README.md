@@ -7,6 +7,8 @@ Current version includes :
 - Adding/Deleting a new expense.
 - expenses are either part of a budget or termed as Uncategorized
 
+Test the working app on this [link](https://heysachin23.github.io/budget-tracker-app/)
+
 ## Scripts
 
 To run this project locally:
